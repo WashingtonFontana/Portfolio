@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Washington Fontana Netto | Portfólio</title>
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li> <a href="#inicio" class="menu-link">Início</a> </li>
+            <li> <a href="#sobre" class="menu-link">Sobre</a> </li>
+            <li> <a href="#projetos" class="menu-link">Projetos</a> </li>
+            <li> <a href="#contatos" class="menu-link">Contato</a> </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho"> <img src="./img/washington2.jpg" class="foto-perfil"
+            alt="foto de perfil Washington Fontana">
+        <h1>Washington Fontana Netto</h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+    </main>
+
+    <section id="apresentacao" class="apresentacao">
+        <h3 class="apresentacao-titulo">Seja bem-vindo ao meu Portfólio!</h3>
+        <div class="apresentacao-caixa">
+            <p class="apresentacao-paragrafo"> Sou um desenvolvedor Front-End com especialidade em HTML, CSS e
+                JavaScript e que preza em manter códigos limpos durante o desenvolvimento dos projetos. Sou dedicado em
+                criar sites com um visual moderno e responsivo, permitindo que sites se adaptem a diferentes tamanhos de
+                tela, como smartphones, tablets e desktops. </p>
+        </div>
+        <h3 class="tecnologias-titulo">Tecnologias</h3>
+        <div class="tecnologias-container">
+            <div class="tecnologia-tag"> <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    alt="Logo do HTML5"> <span>HTML</span> </div>
+            <div class="tecnologia-tag"> <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="Logo do CSS3">
+                <span>CSS</span>
+            </div>
+            <div class="tecnologia-tag"> <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    alt="Logo do JavaScript"> <span>JavaScript</span> </div>
+        </div>
+    </section>
+
+
+    <section id="sobre" class="sobre">
+        <h1 class="sobre-titulo">Sobre Mim</h1>
+        <div class="sobre-caixa">
+            <p>Tenho 28 anos e resido em Juiz de Fora-MG. Atualmente, estou cursando o curso Superior de Tecnologia em
+                Análise e Desenvolvimento de Sistemas pela Uninter e atuo como desenvolvedor Front-End freelancer,
+                criando interfaces funcionais e modernas enquanto aprimoro continuamente minhas competências técnicas.
+            </p><br>
+            <p>Sou altamente dedicado ao meu desenvolvimento profissional. Por isso, estou realizando a formação
+                completa em Front-End pela Udemy Academy, onde aprofundo meus conhecimentos em HTML, CSS, JavaScript,
+                TypeScript e React, ampliando minha capacidade de construir projetos e soluções eficientes e escaláveis.
+            </p><br>
+            <p>Complemento minha formação com cursos oferecidos pela instituição Alura, em parceria com a instituição
+                Santander Open Academy, nas áreas de redes de computadores, linguagens de programação, Power BI,
+                Git/GitHub e UX Design — habilidades que fortalecem minha visão sistêmica dos projetos e meu
+                entendimento de todo o ciclo de desenvolvimento. </p><br>
+            <p>Meu maior objetivo é me tornar um desenvolvedor Full Stack. Para isso, avanço também na trilha Back-End
+                por meio da instituição PycodeBR, estudando o framework Django, a linguagem Python, criação de APIs
+                modernas e automação de sistemas, o que amplia minha capacidade de atuar de ponta a ponta no
+                desenvolvimento de aplicações</p><br>
+            <p> Além da formação em Análise e Desenvolvimento de Sistemas, sou graduado em Serviços Jurídicos,
+                Cartorários e Notariais pela instituição Unopar/Anhanguera. Essa bagagem me proporciona uma visão
+                analítica diferenciada e capacidade de lidar com documentações técnicas e processuais de alta
+                complexidade — um diferencial valioso em ambientes corporativos que exigem precisão e
+                responsabilidade.br </p><br> Sou movido pela busca constante por conhecimento e pela construção de
+            soluções tecnológicas que gerem impacto real. Estou preparado para enfrentar novos desafios e evoluir
+            profissionalmente em direção ao Full Stack, sempre com foco em excelência, produtividade e inovação. <p>
+            </p>
+        </div>
+    </section>
+
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card"> <a href="https://washingtonfontana.github.io/Fontana-Store/" target="_blank">
+                    <img src="./img/fontanaStore.png" class="projetos-imagem"> </a>
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Fontana Store</h3>
+                    <p class="paragrafo-projetos">Site responsivo com visual moderno.</p>
+                    <p class="paragrafo-projetos">HTML | CSS | JavaScript</p>
+                </div>
+            </div>
+
+            <div class="projetos-card"> <a href="https://washingtonfontana.github.io/Cafeteria/" target="_blank"> <img
+                        src="./img/cafeteria.png" class="projetos-imagem"> </a>
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Cafeína Club</h3>
+                    <p class="paragrafo-projetos">Loja de café moderna e responsiva.</p>
+                    <p class="paragrafo-projetos">HTML | CSS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form"> <input placeholder="Nome" class="campo-form" id="nome"> </div>
+            <div class="grupo-form"> <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6"
+                    id="mensagem"></textarea> </div> <button type="submit" class="botao-form"> Enviar WhatsApp</button>
+        </form>
+    </section>
+
+    <script>
+        function enviarWhats(event) {
+            event.preventDefault();
+
+            const nome = document.getElementById('nome').value;
+            const mensagem = document.getElementById('mensagem').value;
+            const telefone = '5532988134080';
+
+            const texto = `Olá! Me chamo ${nome}. ${mensagem}`;
+            const msgFormatada = encodeURIComponent(texto);
+
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
+
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
