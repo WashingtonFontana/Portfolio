@@ -302,3 +302,123 @@ h1 {
     font-weight: 500;
     color: #444;
 }
+
+@media (max-width: 768px) {
+
+    /* MENU */
+    .menu {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .navegacao {
+        padding: 1rem;
+    }
+
+    /* CABEÇALHO */
+    .cabecalho {
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 180px;
+        height: 280px;
+    }
+ 
+    h1 {
+        font-size: 2rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem;
+    }
+
+    /* SEÇÕES */
+    .sobre,
+    .apresentacao,
+    .projetos,
+    .contatos {
+        padding: 3rem 1.5rem;
+    }
+
+    .sobre-titulo,
+    .apresentacao-titulo,
+    .projetos-titulo,
+    .contatos-titulo,
+    .tecnologias-titulo {
+        font-size: 2rem;
+    }
+
+    /* CAIXAS DE TEXTO */
+    .apresentacao-caixa,
+    .sobre-caixa {
+        font-size: 1.05rem;
+        padding: 1.5rem;
+    }
+
+    /* PROJETOS */
+    .projetos-caixa {
+        grid-template-columns: 1fr;
+    }
+
+    .projetos-imagem {
+        height: 200px;
+    }
+
+    /* FORMULÁRIO */
+    .formulario-contato {
+        padding: 1.5rem;
+    }
+
+    /* TECNOLOGIAS */
+    .tecnologias-container {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* MENU */
+    .menu-link {
+        font-size: 1rem;
+    }
+
+    /* CABEÇALHO */
+    .foto-perfil {
+        width: 150px;
+        height: 230px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1rem;
+    }
+
+    /* TÍTULOS */
+    .sobre-titulo,
+    .apresentacao-titulo,
+    .projetos-titulo,
+    .contatos-titulo,
+    .tecnologias-titulo {
+        font-size: 1.8rem;
+    }
+
+    /* TEXTOS */
+    .apresentacao-caixa,
+    .sobre-caixa {
+        font-size: 1rem;
+    }
+
+    /* TECNOLOGIAS */
+    .tecnologia-tag {
+        padding: 0.5rem 1rem;
+    }
+
+    .tecnologia-tag span {
+        font-size: 0.9rem;
+    }
+}
