@@ -307,12 +307,12 @@ h1 {
 
     /* MENU */
     .menu {
-        flex-direction: column;
+        display: flex;
         gap: 1.5rem;
     }
 
     .navegacao {
-        padding: 1rem;
+        padding: 1.rem;
     }
 
     /* CABEÇALHO */
